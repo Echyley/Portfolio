@@ -1,18 +1,25 @@
+.skills {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    margin: 0vh 10vh 0vh 10vh;
+}
+
 .skills .title::after{
     content: "Que tenho";
 }
-.skills .skills-content .column-left{
+.skills .skills-content .column{
     width: calc(50% - 30px);
 }
-.skills .skills-content .column-left .text{
+.skills .skills-content .left .text{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.skills .skills-content .column-left p{
+.skills .skills-content .left p{
     text-align: justify;
+    font-size: 20px;
 }
-.skills .skills-content .column-left a{
+.skills .skills-content .left a{
     display: inline-block;
     background: #580593;
     color: #fff;
@@ -24,29 +31,29 @@
     border: 2px solid #580593;
     transition: all 0.3s ease;
 }
-.skills .skills-content .column-left a:hover{
+.skills .skills-content .left a:hover{
     color: #580593;
     background: none;
 }
-.skills .skills-content .column-right .bars{
+.skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
-.skills .skills-content .column-right .info{
+.skills .skills-content .right .info{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.skills .skills-content .column-right span{
+.skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
 }
-.skills .skills-content .column-right .line{
+.skills .skills-content .right .line{
     width: 100%;
     height: 5px;
     background: #ccc;
     position: relative;
 }
-.skills .skills-content .column-right .line::before{
+.skills .skills-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
@@ -54,18 +61,18 @@
     left: 0;
     background: #00804b;
 }
-.skills .skills-content .column-right .line-html::before{
+.skills .skills-content .right .html::before{
     width: 90%;
 }
-.skills .skills-content .column-right .line-css::before{
-    width: 85%;
+.skills .skills-content .right .css::before{
+    width: 80%;
 }
-.skills .skills-content .column-right .line-js::before{
-    width: 87%;
+.skills .skills-content .right .js::before{
+    width: 30%;
 }
-.skills .skills-content .right .line-java::before{
-    width: 47%;
+.skills .skills-content .right .java::before{
+    width: 50%;
 }
-.skills .skills-content .right .line-mysql::before{
-    width: 42%;
+.skills .skills-content .right .mysql::before{
+    width: 40%;
 }

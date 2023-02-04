@@ -60,6 +60,20 @@ section .title::after {
     transform: translateX(-50%);
 }
 
+.projects, .team{
+    background: #111;
+    color: #fff;
+}
+
+.projects .title::before,
+.team .title::before{
+    background: #fff;
+}
+.projects .title::after{
+    background: #111;
+    content: "Em progresso";
+}
+
 .about,
 .skills,
 .projects,

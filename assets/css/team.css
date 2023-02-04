@@ -1,17 +1,17 @@
-.teams .title::after{
+.team .title::after{
     content: "Meus amigos!";
 }
-.teams .carousel .card{
+.team .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.team .carousel .card:hover{
     background: #580593;
 }
-.teams .carousel .card img{
+.team .carousel .card img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -19,20 +19,20 @@
     border: 5px solid #580593;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.team .carousel .card:hover img{
     border-color: #fff;
 }
-.teams .carousel .card .box{
+.team .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.team .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.team .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
