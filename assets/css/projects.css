@@ -1,3 +1,19 @@
+.projects .title::after{
+    content: "Em andamento";
+}
+.projects .title::before {
+    background: #ffffff;   
+}
+
+.projects, .team{
+    background: #111;
+    color: #fff;
+}
+
+.projects .projects-list ul{
+    display: flex;
+}
+
 .projects .projects-list .projects-item {
     display: grid;
     width: calc(50%);
@@ -5,6 +21,7 @@
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
+    margin: 2vh;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -27,3 +44,5 @@
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+

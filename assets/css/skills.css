@@ -1,12 +1,13 @@
+.skills .title::after{
+    content: "Que tenho";
+}
+
 .skills {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 50px;
     margin: 0vh 10vh 0vh 10vh;
 }
 
-.skills .title::after{
-    content: "Que tenho";
-}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
