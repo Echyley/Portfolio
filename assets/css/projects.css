@@ -1,5 +1,5 @@
 .projects .title::after{
-    content: "Em andamento";
+    content: "Concluídos e em andamento";
 }
 .projects .title::before {
     background: #ffffff;   
@@ -11,38 +11,104 @@
 }
 
 .projects .projects-list ul{
+    width: 370vh;
     display: flex;
 }
 
-.projects .projects-list .projects-item {
-    display: grid;
-    width: calc(50%);
+.projects .projects-list .projectsItem {
+    width: calc(100%);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
+    padding: 15px;
     margin: 2vh;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.projects .projects-list .projects-item:hover {
+.projects .projects-list .projectsItem:hover {
     background: #09920973;
 }
 
-.projects .projects-list .projects-item .codepen {
+.projects .projects-list .projectsItem .codepen {
     transition: all 0.3s ease;
 }
 
-.projects .projects-list .projects-item:hover .codepen {
+.projects .projects-list .projectsItem:hover .codepen {
     transform: scale(1.5);
 }
 
-.projects .projects-list .projects-item p {
+.projects .projects-list .projectsItem p {
     list-style: none;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
+.slide {
+    overflow: hidden;
+    transition: all 0.4s;
+}
 
+.slides {
+    width: 1050px;
+}
+
+#current {
+    margin-left: 0;
+    transition: all 2s;   
+}
+
+.btn {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+
+.btn:hover {
+    transform: scale(1.5);
+}
+
+#back {
+    top: 50%;
+    left: 10%;
+}
+
+.next {
+    top: 50%;
+    right: 10%;
+}
+
+.balls {
+    position: absolute;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin-left: 425px;
+}
+
+.balls div {
+    transition: all 0.5s;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover{
+    background: white;
+}
+
+#current {
+    transition: all 0.5s;
+    
+}

@@ -2,16 +2,16 @@
     content: "Fale comigo!";
 }
 
-.contact .contact-content .socials{
+.contact .contact-content .socials {
     width: 100%;
     display: flex;
 }
 
 .contact .contact-content .socials-item {
     align-items: center;
-    padding: 6vh;
+    padding: 7vh;
 }
 
-.contact .contact-content .socials-item .head img{
+.contact .contact-content .socials-item .head img {
     width: 10vh;
 }
