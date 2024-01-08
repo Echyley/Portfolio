@@ -1,0 +1,64 @@
+.team {
+  background: #111;
+  color: #fff;
+}
+
+.team .title::after {
+  content: "Meus amigos!";
+}
+.team .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.team .carousel .card:hover {
+  background: #580593;
+}
+.team .carousel .card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #580593;
+  transition: all 0.3s ease;
+}
+.team .carousel .card:hover img {
+  border-color: #fff;
+}
+.team .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.team .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+.team .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot {
+  width: 14px;
+  height: 14px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #580593 !important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active {
+  width: 35px;
+  border-radius: 15px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #580593 !important;
+}

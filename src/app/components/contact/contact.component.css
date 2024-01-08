@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact img {
+  width: 8vh;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact .title::after {
+  content: "Talk with me!";
+}
+
+.contact .contact-content .socials {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.contact .contact-content .socials-item {
+  padding: 5vh;
+}

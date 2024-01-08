@@ -1,0 +1,72 @@
+.projects .title::after {
+  content: "Done and on going";
+}
+.projects .title::before {
+  background: #ffffff;
+}
+
+.projects {
+  background: #111;
+  color: #fff;
+}
+
+.projects .projects-list {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects .projects-list ul {
+  max-width: 300vh;
+  display: flex;
+}
+
+.projects .projects-list .projectsItem {
+  display: none;
+  width: calc(100%);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 2vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.projects .projects-list .projectsItem.visible {
+  display: block;
+}
+
+.projects .projects-list li:hover {
+  background: #580593;
+}
+
+.projects .projects-list .projectsItem p {
+  list-style: none;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.balls {
+  display: flex;
+  justify-content: center;
+}
+
+.balls div {
+  transition: all 0.5s;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.balls div:hover {
+  background: white;
+}
+
+.balls div.current {
+  background: white;
+}

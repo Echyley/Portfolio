@@ -1,0 +1,66 @@
+<section class="projects" id="projects">
+  <div class="max-width">
+    <h2 class="title">Projects</h2>
+    <div class="projects-content">
+      <div class="slide">
+        <div class="codepen">
+          <div class="slides">
+            <div id="back" class="btn" (click)="prevSlide()">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+            <div id="next" class="btn" (click)="nextSlide()">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div class="projects-list">
+              <ul>
+                <li
+                  *ngFor="let project of projects; let i = index"
+                  class="projectsItem"
+                  [ngClass]="{'visible': project.isSlideVisible}"
+                >
+                  <p>{{ project.title }}</p>
+                  <p
+                    class="codepen"
+                    [attr.data-height]="500"
+                    [attr.data-theme-id]="'dark'"
+                    [attr.data-default-tab]="'html,result'"
+                    [attr.data-slug-hash]="project.slugHash"
+                    [attr.data-user]="project.codepenUser"
+                    style="
+                      height: 300px;
+                      box-sizing: border-box;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      border: 2px solid;
+                      margin: 1em 0;
+                      padding: 1em;
+                    "
+                  >
+                    <span
+                      >See the Pen
+                      <a [href]="project.codepenUrl">{{ project.title }}</a> (<a
+                        [href]="project.codepenUserUrl"
+                        >@{{ project.codepenUser }}</a
+                      >) on <a href="https://codepen.io">CodePen</a>.</span
+                    >
+                  </p>
+                  <script async [src]="project.embedScriptUrl"></script>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="balls">
+    <div
+      *ngFor="let _ of projects; let i = index"
+      [class.current]="i === currentSlide"
+      (click)="showSlide(i)"
+      [attr.id]="'ball-' + i"
+    ></div>
+  </div>
+</section>
