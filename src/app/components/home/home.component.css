@@ -45,7 +45,6 @@
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-
 }
 
 .home .home-content a:hover {
@@ -56,19 +55,4 @@
     box-shadow: rgba(255, 255, 255, 0.681) 0px 22px 70px 4px;
     transition: all 1s ease;
     background: #7f08d4;
-}
-
-footer {
-    background: #0c0c0c;
-    padding: 20px 23px;
-    text-align: center;
-}
-
-footer span a {
-    color: #580593;
-    text-decoration: none;
-}
-
-footer span a:hover {
-    text-decoration: underline;
 }

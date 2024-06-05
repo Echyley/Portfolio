@@ -1,0 +1,43 @@
+{
+    "NAV": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "SKILLS": "Skills",
+        "PROJECTS": "Projets",
+        "CONTACT": "Contact",
+        "TEAM": "Team"
+    },
+    "LANG_BUTTON": {
+        "SWITCH_LANG": "Switch to portuguese"
+    },
+    "HOME": {
+        "TEXT1": "Hello! My name is",
+        "TEXT2": "Amanda Rodrigues",
+        "TEXT3": "I am <br><span class='typing'>Fullstack Developer</span>",
+        "CONTACT_LINK": "Contact"
+    },
+    "ABOUT": {
+        "TITLE": "About",
+        "AFTER_TITLE1": "who am i?",
+        "NAME": "My name is Amanda Rodrigues da Silva.",
+        "EXPERIENCE": "I don't have much experience in the job market, but I am seeking new opportunities that will help me pursue my dream!",
+        "TECHNOLOGY_ART": "I love technology and art.",
+        "DEVELOPING_IT": "I am developing myself in the IT field and really want to use that to help people in some way in the future.",
+        "NICE_TO_MEET_YOU": "Nice to meet you!",
+        "DOWNLOAD_CV": "Download CV"
+    },
+    "SKILLS": {
+        "TITLE": "Skills",
+        "AFTER_TITLE2": " and habilities",
+        "TEXT_LEFT": "About my professional journey:",
+        "TEXT_RIGHT": "I began my journey in the field by intensely studying front-end, focusing on HTML and CSS, which made me more acquainted with this domain than with back-end for a while. However, I deepened my understanding in Analysis and Systems Development through comprehensive online courses and university studies. Consequently, I acquired skills in applying the Java language for SQL database manipulation, including CRUD operations. I can confidently state that my focus has now shifted to back-end development. Java was my inaugural programming language, and currently, I am directing my studies towards Angular, Spring, and SAP.",
+        "HTML": "HTML",
+        "CSS": "CSS",
+        "JAVA": "Java",
+        "SPRING": "Spring",
+        "JAVASCRIPT": "JavaScript",
+        "ANGULAR": "Angular",
+        "MYSQL": "MySQL",
+        "SAP": "SAP"
+    }
+}
