@@ -1,6 +1,5 @@
 import { Component, HostListener, ElementRef } from "@angular/core";
-import { LanguageService } from '../../services/language.service'; // Importe o serviço de idioma
-
+import { LanguageService } from '../../services/language.service';
 @Component({
   selector: "app-navbar",
   templateUrl: "./navbar.component.html",
@@ -9,9 +8,9 @@ import { LanguageService } from '../../services/language.service'; // Importe o 
 export class NavbarComponent {
   private headerHeight: number = 0;
   private lastScrollTop: number = 0;
-  public isHidden: boolean = true;
+  public isHidden: boolean = false;
 
-  constructor(private el: ElementRef, private languageService: LanguageService) {} // Injete o LanguageService
+  constructor(private el: ElementRef, private languageService: LanguageService) { }
 
   ngOnInit() {
     const headerElement = this.el.nativeElement.querySelector("header.navbar");
@@ -41,7 +40,6 @@ export class NavbarComponent {
     }
   }
 
-  // Método para alternar entre os idiomas
   switchLanguage() {
     this.languageService.switchLanguage();
   }

@@ -1,7 +1,3 @@
-.about .title::after {
-  content: "Who am i?";
-}
-
 .about .max-width {
   height: 40vh;
 }

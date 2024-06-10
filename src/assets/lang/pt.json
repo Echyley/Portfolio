@@ -1,5 +1,7 @@
 {
     "NAV": {
+        "PORT": "Port",
+        "FOLIO": "fólio",
         "HOME": "Início",
         "ABOUT": "Sobre",
         "SKILLS": "Habilidades",
@@ -7,8 +9,9 @@
         "CONTACT": "Contato",
         "TEAM": "Equipe"
     },
-    "BUTTON": {
-        "SWITCH_LANG": "Mudar para inglês"
+    "LANG_BUTTON": {
+        "SWITCH_LANG": "Mudar idioma",
+        "SWITCH": "Inglês"
     },
     "HOME": {
         "TEXT1": "Olá! Meu nome é",
@@ -18,9 +21,8 @@
     },
     "ABOUT": {
         "TITLE": "Sobre",
-        "AFTER_TITLE1": "quem sou?",
         "NAME": "Meu nome é Amanda Rodrigues da Silva.",
-        "EXPERIENCE": "Não tenho muita experiência no mercado de trabalho, mas estou procurando novas oportunidades que me ajudarão a perseguir meu sonho!",
+        "EXPERIENCE": "Não tenho muita experiência no mercado de trabalho, mas estou procurando novas oportunidades que me ajudarão.",
         "TECHNOLOGY_ART": "Amo tecnologia e arte.",
         "DEVELOPING_IT": "Estou me desenvolvendo na área de TI e realmente quero usar isso para ajudar as pessoas de alguma forma no futuro.",
         "NICE_TO_MEET_YOU": "Prazer em conhecê-lo!",
@@ -28,9 +30,8 @@
     },
     "SKILLS": {
         "TITLE": "Habilidades",
-        "AFTER_TITLE2": " e habilidades",
         "TEXT_LEFT": "Sobre minha jornada profissional:",
-        "TEXT_RIGHT": "Comecei minha jornada no campo estudando intensamente front-end, focando em HTML e CSS, o que me deixou mais familiarizada com este domínio do que com o back-end por um tempo. No entanto, aprofundei meu entendimento em Análise e Desenvolvimento de Sistemas por meio de cursos online abrangentes e estudos universitários. Consequentemente, adquiri habilidades na aplicação da linguagem Java para manipulação de bancos de dados SQL, incluindo operações CRUD. Posso afirmar com confiança que meu foco agora se voltou para o desenvolvimento de back-end. Java foi minha linguagem de programação inaugural e atualmente estou direcionando meus estudos para Angular, Spring e SAP.",
+        "TEXT_RIGHT": "Comecei estudando front-end, focando em HTML e CSS. Então passei a me aprofundar em Análise e Desenvolvimento de Sistemas por meio de cursos online abrangentes e então entrei na faculdade. Consequentemente, adquiri habilidades na aplicação da linguagem Java para manipulação de bancos de dados SQL, incluindo operações CRUD. Java foi minha primeira linguagem de programação que levei a sério e atualmente estou direcionando meus estudos para Angular, Java Script, Spring e SAP.",
         "HTML": "HTML",
         "CSS": "CSS",
         "JAVA": "Java",

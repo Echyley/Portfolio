@@ -9,10 +9,6 @@
   height: auto;
 }
 
-.contact .title::after {
-  content: "Talk with me!";
-}
-
 .contact .contact-content .socials {
   width: 100%;
   display: flex;

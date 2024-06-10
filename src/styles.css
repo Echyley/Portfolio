@@ -8,10 +8,6 @@
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 .max-width {
   max-width: 1300px;
   padding: 0 80px;
@@ -40,17 +36,6 @@ section .title::before {
   width: 180px;
   height: 3px;
   background: #111;
-  transform: translateX(-50%);
-}
-
-section .title::after {
-  position: absolute;
-  bottom: -28px;
-  left: 50%;
-  font-size: 20px;
-  color: #099209;
-  font-weight: 500;
-  padding: 5px;
   transform: translateX(-50%);
 }
 

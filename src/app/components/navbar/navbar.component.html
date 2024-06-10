@@ -1,7 +1,7 @@
 <header class="navbar" [ngClass]="{'hidden': isHidden}">
   <div class="max-width">
     <div class="logo">
-      <a href="#"> Port<span>folio</span></a>
+      <a href="#"> {{ 'NAV.PORT' | translate }}<span>{{ 'NAV.FOLIO' | translate }}</span></a>
     </div>
     <ul class="menu">
       <li><a href="#home">{{ 'NAV.HOME' | translate }}</a></li>
@@ -11,8 +11,12 @@
       <li><a href="#contact">{{ 'NAV.CONTACT' | translate }}</a></li>
       <li><a href="#team">{{ 'NAV.TEAM' | translate }}</a></li>
     </ul>
-    <ul class="lang">
-      <button (click)="switchLanguage()">{{ 'BUTTON.SWITCH_LANG' | translate }}</button>
-    </ul>
+
+    <div class="dropdown">
+      <p>{{ 'LANG_BUTTON.SWITCH_LANG' | translate }}</p>
+      <div class="dropdown-content">
+        <a (click)="switchLanguage()">{{ 'LANG_BUTTON.SWITCH' | translate }}</a>
+      </div>
+    </div>
   </div>
 </header>

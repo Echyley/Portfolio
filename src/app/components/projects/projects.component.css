@@ -1,6 +1,3 @@
-.projects .title::after {
-  content: "Done and on going";
-}
 .projects .title::before {
   background: #ffffff;
 }
